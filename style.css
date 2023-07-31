@@ -1,0 +1,40 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul li{
+    list-style: none;
+    margin: 1rem 2rem;
+    padding: 0.5rem 2rem;
+    background: orange;
+    border: 1px solid gray; 
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+ul li button{
+    background: rgb(9, 180, 9);
+    padding: 0.3rem 2rem ;
+    color: white;
+    float: right;
+    font-size: 1rem;
+    border-radius: 5px;
+    border-style: none;
+    
+}
+ul li button:hover{
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.237);
+    transform: scale(1.02);
+    background: rgb(5, 171, 5);
+    
+}
+
+.marking{
+    text-decoration: line-through;
+}
+
+
